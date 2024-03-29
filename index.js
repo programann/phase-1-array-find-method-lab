@@ -7,7 +7,7 @@ function superbowlWin(arr){
         }
     })
 
-    return ans ? ans.year : undefined
+    return ans ? ans.year: undefined
 
     
 }

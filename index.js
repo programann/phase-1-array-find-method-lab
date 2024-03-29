@@ -1,9 +1,9 @@
 // code your solution here
 function superbowlWin(arr){
 
-   let ans =  arr.find((el) => {
-        if(el.result === "W"){
-            return el.year
+   let ans =  arr.find((record) => {
+        if(record.result === "W"){
+            return record.year
         }
     })
 
